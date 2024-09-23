@@ -130,11 +130,10 @@ Next, down the default interface`enp0s3` of the VM-UP and set the VM-DN IP addre
 
 ### Create configuration file
 
-Create `/root/osmocom` directory and put the configuration file there.
+Create `/root/osmocom` directory and put the configuration file there.  
 
 - `/root/osmocom/osmo-upf.cfg`
 
-**Note. The GTP Device is set to `upf` and the Network Instance is set to `internet`.**
 ```
 log stderr
  logging filter all 1
@@ -154,6 +153,7 @@ tunend
 netinst
  add internet 192.168.13.151
 ```
+**Note. The GTP Device is set to `upf` and the Network Instance is set to `internet`.**
 
 <a id="run"></a>
 
