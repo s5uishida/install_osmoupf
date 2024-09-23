@@ -130,7 +130,7 @@ Next, down the default interface`enp0s3` of the VM-UP and set the VM-DN IP addre
 
 ### Create configuration file
 
-Create `/root/osmocom` directory and put the configuration file there.  
+Create `/root/osmocom` directory and put the configuration file there.
 
 - `/root/osmocom/osmo-upf.cfg`
 
