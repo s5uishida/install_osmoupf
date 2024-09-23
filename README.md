@@ -164,6 +164,8 @@ Here, stop `osmo-upf.service` and run `osmo-upf` manually.
 ```
 # systemctl stop osmo-upf.service
 # systemctl disable osmo-upf.service
+```
+```
 # cd /root/osmocom
 # osmo-upf -c osmo-upf.cfg
 Added GTP device upf on 192.168.13.151 (create new)
