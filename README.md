@@ -192,6 +192,9 @@ Then, set the routing to the `<Data Network>` for the `<GTP Device>`.
 ```
 **Note. Set `<Data Network>` according to the core network and `<GTP Device>` according to the `osmo-upf.cfg`.  
 ex) `<Data Network>=10.45.0.0/16, <GTP Device>=upf`**
+```
+# ip route add 10.45.0.0/16 dev upf
+```
 
 <a id="setup_dn"></a>
 
