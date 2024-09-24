@@ -38,7 +38,7 @@ The built simulation environment is as follows.
 <img src="./images/network-overview.png" title="./images/network-overview.png" width=800px></img>
 
 The OsmoUPF used is as follows.
-- UPF - OsmoUPF v0.1.1.109 (2024.09.22) - https://gitea.osmocom.org/cellular-infrastructure/osmo-upf
+- UPF - OsmoUPF v0.1.1.109 (2024.08.16) - https://gitea.osmocom.org/cellular-infrastructure/osmo-upf
 
 Each VMs are as follows.  
 | VM | SW & Role | IP address | OS | CPU<br>(Min) | Mem<br>(Min) | HDD<br>(Min) |
@@ -93,7 +93,7 @@ In this case, directly edit the vbox file as follows and register the remaining 
 ## Install OsmoUPF on VM-UP
 
 This discribes the package installation of Nightly Builds on Ubuntu 24.04 with reference to the following.
-- OsmoUPF v0.1.1.109 (2024.09.22) - https://osmocom.org/projects/cellular-infrastructure/wiki/Binary_Packages
+- OsmoUPF v0.1.1.109 (2024.08.16) - https://osmocom.org/projects/cellular-infrastructure/wiki/Binary_Packages
 
 ```
 # wget https://obs.osmocom.org/projects/osmocom/public_key
@@ -111,7 +111,7 @@ This discribes the package installation of Nightly Builds on Ubuntu 24.04 with r
 ## Setup OsmoUPF on VM-UP
 
 Please refer to the following for setup OsmoUPF.
-- OsmoUPF v0.1.1.109 (2024.09.22) - https://ftp.osmocom.org/docs/osmo-upf/master/osmoupf-usermanual.pdf
+- OsmoUPF v0.1.1.109 (2024.08.16) - https://ftp.osmocom.org/docs/osmo-upf/master/osmoupf-usermanual.pdf
 
 First, uncomment the next line in the `/etc/sysctl.conf` file and reflect it in the OS.
 ```
